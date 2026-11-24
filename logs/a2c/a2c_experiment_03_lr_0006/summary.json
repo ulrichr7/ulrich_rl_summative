@@ -1,0 +1,18 @@
+{
+  "run_name": "a2c_experiment_03_lr_0006",
+  "episodes": 120,
+  "updates": 30,
+  "final_20_mean_training_reward": 1.7251319109678491,
+  "mean_recent_policy_loss": 0.17684840224683285,
+  "mean_recent_critic_loss": 0.6497746855020523,
+  "mean_recent_policy_entropy": 1.5656424164772034,
+  "mean_eval_reward": 7.614150941798535,
+  "std_eval_reward": 2.8569155177828653,
+  "mean_eval_yield_score": 74.2086842499667,
+  "mean_eval_final_health": 0.9119467983487718,
+  "mean_eval_irrigation_mm": 122.70922319493903,
+  "mean_eval_policy_entropy": 1.5551924946573044,
+  "episode_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/a2c/a2c_experiment_03_lr_0006/episode_metrics.csv",
+  "update_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/a2c/a2c_experiment_03_lr_0006/update_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/pg/a2c_experiment_03_lr_0006.pt"
+}

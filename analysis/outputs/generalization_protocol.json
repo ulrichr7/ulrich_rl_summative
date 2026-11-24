@@ -1,0 +1,38 @@
+{
+  "purpose": "Generalization to unseen randomized initial conditions and weather seeds",
+  "episode_count_per_algorithm": 50,
+  "seed_start": 20000,
+  "seed_end_inclusive": 20049,
+  "shared_seed_protocol": true,
+  "policy_action_selection": "Greedy deterministic argmax; same convention as training evaluation",
+  "environment_episode_days": 90,
+  "action_mapping_mm": {
+    "0": 0.0,
+    "1": 2.0,
+    "2": 5.0,
+    "3": 8.0,
+    "4": 12.0
+  },
+  "initial_soil_moisture_range_mm": [
+    38.0,
+    68.0
+  ],
+  "initial_reservoir_range_mm": [
+    105.0,
+    160.0
+  ],
+  "initial_crop_health": 0.95,
+  "reward_ci_method": "Normal-approximation 95% CI: mean +/- 1.96 * sample SD / sqrt(n)",
+  "paired_comparison_method": "Per-seed DQN minus comparison-agent return; same normal-approximation CI",
+  "checkpoints": {
+    "DQN": "models/dqn/dqn_experiment_04_gamma_095.pt",
+    "REINFORCE": "models/pg/reinforce_experiment_01_default.pt",
+    "PPO": "models/pg/ppo_experiment_01_default.pt",
+    "A2C": "models/pg/a2c_experiment_03_lr_0006.pt"
+  },
+  "notes": [
+    "These seeds are separated from training seeds 7-126 and original evaluation seeds 10007-10016.",
+    "The confidence intervals are descriptive estimates, not proof of broad real-world performance.",
+    "The environment is a transparent stochastic simulation, not a calibrated field-crop model."
+  ]
+}

@@ -1,0 +1,4 @@
+comparison,paired_seeds,mean_reward_difference,std_paired_difference,ci95_low,ci95_high,interpretation
+DQN minus REINFORCE,50,0.31688325827436487,1.9426283461455804,-0.22158584706445622,0.8553523636131859,difference is uncertain; interval includes zero
+DQN minus PPO,50,0.8822610914084444,1.8137948684104497,0.37950280416376336,1.3850193786531255,DQN higher on average; interval excludes zero
+DQN minus A2C,50,2.6896283018991456,4.2412346647052575,1.5140180314286615,3.8652385723696296,DQN higher on average; interval excludes zero

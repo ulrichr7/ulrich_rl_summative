@@ -1,0 +1,33 @@
+[project]
+name = "smart-irrigation-rl-summative"
+version = "0.1.0"
+description = "A custom reinforcement-learning simulator for water-efficient maize irrigation decisions."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy>=2.0",
+    "gymnasium>=1.0",
+    "torch>=2.11",
+    "torchrl>=0.15.0",
+    "tensordict>=0.15.2",
+    "pygame>=2.6",
+    "matplotlib>=3.9",
+    "pandas>=2.2",
+    "tensorboard>=2.18",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.uv]
+# This is an application repository; run its scripts from the project root.
+package = false

@@ -1,0 +1,19 @@
+{
+  "run_name": "ppo_experiment_06_clip_010",
+  "episodes": 120,
+  "updates": 30,
+  "final_20_mean_training_reward": 2.440383783697754,
+  "mean_recent_policy_objective_loss": -0.015001843334175646,
+  "mean_recent_critic_loss": 0.48133895397186277,
+  "mean_recent_entropy_bonus": 0.015155339846387506,
+  "mean_recent_clip_fraction": 0.13009960915078408,
+  "mean_eval_reward": 7.758455612554593,
+  "std_eval_reward": 2.3988888005146483,
+  "mean_eval_yield_score": 76.29889609268017,
+  "mean_eval_final_health": 0.9209589238549072,
+  "mean_eval_irrigation_mm": 128.72052492862665,
+  "mean_eval_policy_entropy": 1.5153946514924366,
+  "episode_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/ppo/ppo_experiment_06_clip_010/episode_metrics.csv",
+  "update_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/ppo/ppo_experiment_06_clip_010/update_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/pg/ppo_experiment_06_clip_010.pt"
+}

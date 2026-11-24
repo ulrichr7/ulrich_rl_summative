@@ -1,0 +1,19 @@
+{
+  "run_name": "ppo_experiment_04_gamma_095",
+  "episodes": 120,
+  "updates": 30,
+  "final_20_mean_training_reward": 9.19069893625085,
+  "mean_recent_policy_objective_loss": -0.032207874301820996,
+  "mean_recent_critic_loss": 0.13593963906168938,
+  "mean_recent_entropy_bonus": 0.008349914196878671,
+  "mean_recent_clip_fraction": 0.25114453252754176,
+  "mean_eval_reward": -6.365770071579165,
+  "std_eval_reward": 5.481245611508724,
+  "mean_eval_yield_score": 37.19112078319356,
+  "mean_eval_final_health": 0.12819705208239934,
+  "mean_eval_irrigation_mm": 0.0,
+  "mean_eval_policy_entropy": 0.8447532361460354,
+  "episode_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/ppo/ppo_experiment_04_gamma_095/episode_metrics.csv",
+  "update_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/ppo/ppo_experiment_04_gamma_095/update_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/pg/ppo_experiment_04_gamma_095.pt"
+}

@@ -1,0 +1,5 @@
+algorithm,run_name,final_20_mean_training_reward,stability_tolerance,episodes_to_stability_estimate,criterion
+DQN,dqn_experiment_04_gamma_095,9.230809571199458,0.9230809571199459,77,"10-episode moving mean within max(10% of |final-20 mean|, 0.5) for 10 consecutive episodes"
+REINFORCE,reinforce_experiment_01_default,3.706531663020879,0.5,not reached,"10-episode moving mean within max(10% of |final-20 mean|, 0.5) for 10 consecutive episodes"
+PPO,ppo_experiment_01_default,3.74472041226391,0.5,not reached,"10-episode moving mean within max(10% of |final-20 mean|, 0.5) for 10 consecutive episodes"
+A2C,a2c_experiment_03_lr_0006,1.7251319109678491,0.5,not reached,"10-episode moving mean within max(10% of |final-20 mean|, 0.5) for 10 consecutive episodes"

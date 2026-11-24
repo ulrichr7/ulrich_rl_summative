@@ -1,0 +1,14 @@
+{
+  "episodes": 120,
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "entropy_coefficient": 0.03,
+  "critic_coefficient": 1.0,
+  "hidden_dim": 128,
+  "episodes_per_update": 4,
+  "gradient_clip": 1.0,
+  "evaluation_episodes": 10,
+  "seed": 7,
+  "run_name": "a2c_experiment_09_entropy_003"
+}

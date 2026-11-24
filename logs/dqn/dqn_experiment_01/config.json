@@ -1,0 +1,18 @@
+{
+  "episodes": 120,
+  "learning_rate": 0.001,
+  "gamma": 0.99,
+  "batch_size": 64,
+  "replay_buffer_size": 20000,
+  "hidden_dim": 128,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "epsilon_decay_steps": 6000,
+  "target_tau": 0.005,
+  "learning_starts": 256,
+  "train_frequency": 1,
+  "gradient_clip": 10.0,
+  "evaluation_episodes": 10,
+  "seed": 7,
+  "run_name": "dqn_experiment_01"
+}

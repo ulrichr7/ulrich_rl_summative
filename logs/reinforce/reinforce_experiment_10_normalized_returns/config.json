@@ -1,0 +1,15 @@
+{
+  "episodes": 120,
+  "learning_rate": 0.001,
+  "gamma": 0.99,
+  "hidden_dim": 128,
+  "entropy_coefficient": 0.01,
+  "reward_to_go": true,
+  "normalize_returns": true,
+  "use_ema_baseline": true,
+  "baseline_decay": 0.9,
+  "gradient_clip": 5.0,
+  "evaluation_episodes": 10,
+  "seed": 7,
+  "run_name": "reinforce_experiment_10_normalized_returns"
+}

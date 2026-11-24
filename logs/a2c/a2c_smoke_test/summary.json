@@ -1,0 +1,18 @@
+{
+  "run_name": "a2c_smoke_test",
+  "episodes": 5,
+  "updates": 2,
+  "final_20_mean_training_reward": -1.3844619066852044,
+  "mean_recent_policy_loss": 0.2877427041530609,
+  "mean_recent_critic_loss": 0.6044910252094269,
+  "mean_recent_policy_entropy": 1.6022058725357056,
+  "mean_eval_reward": 7.120764151254981,
+  "std_eval_reward": 3.894255970795014,
+  "mean_eval_yield_score": 71.36526306285387,
+  "mean_eval_final_health": 0.8735458878102754,
+  "mean_eval_irrigation_mm": 113.90787013679366,
+  "mean_eval_policy_entropy": 1.6002379110124376,
+  "episode_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/a2c/a2c_smoke_test/episode_metrics.csv",
+  "update_metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/a2c/a2c_smoke_test/update_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/pg/a2c_smoke_test.pt"
+}

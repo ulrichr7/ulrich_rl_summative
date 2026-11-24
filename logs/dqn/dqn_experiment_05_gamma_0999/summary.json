@@ -1,0 +1,13 @@
+{
+  "run_name": "dqn_experiment_05_gamma_0999",
+  "episodes": 120,
+  "final_20_mean_training_reward": 8.907888807561985,
+  "mean_recent_training_loss": 0.6727616682648658,
+  "mean_eval_reward": 6.506601989922936,
+  "std_eval_reward": 3.38460188025209,
+  "mean_eval_yield_score": 73.1346270477903,
+  "mean_eval_final_health": 0.808954236060751,
+  "mean_eval_irrigation_mm": 128.72052492862665,
+  "metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/dqn/dqn_experiment_05_gamma_0999/episode_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/dqn/dqn_experiment_05_gamma_0999.pt"
+}

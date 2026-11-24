@@ -1,0 +1,17 @@
+RL SUMMATIVE — ANALYSIS OUTPUTS
+================================
+Total experiments validated: 40
+Experiments per algorithm: A2C=10, DQN=10, PPO=10, REINFORCE=10
+
+Best configuration per algorithm (ranked by mean evaluation reward):
+- DQN: dqn_experiment_04_gamma_095 | eval reward=8.9515 | std=2.5739 | yield=79.30 | final health=0.9357 | irrigation=127.63 mm
+- REINFORCE: reinforce_experiment_01_default | eval reward=8.1506 | std=2.5673 | yield=77.19 | final health=0.9295 | irrigation=128.72 mm
+- PPO: ppo_experiment_01_default | eval reward=7.7585 | std=2.3989 | yield=76.30 | final health=0.9210 | irrigation=128.72 mm
+- A2C: a2c_experiment_03_lr_0006 | eval reward=7.6142 | std=2.8569 | yield=74.21 | final health=0.9119 | irrigation=122.71 mm
+
+Interpretation cautions:
+- Evaluation summaries currently use 10 fixed held-out seeds; treat ranking as preliminary.
+- Compare training reward curves separately from held-out evaluation reward.
+- Different policies can produce identical greedy action sequences on the same evaluation seeds.
+- Do not claim statistical significance from these 10 evaluation episodes.
+- The figures are generated from the recorded episode/update CSVs; no experiment values are fabricated.

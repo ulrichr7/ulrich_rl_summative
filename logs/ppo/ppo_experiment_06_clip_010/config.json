@@ -1,0 +1,18 @@
+{
+  "episodes": 120,
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip_epsilon": 0.1,
+  "entropy_coefficient": 0.01,
+  "critic_coefficient": 1.0,
+  "hidden_dim": 128,
+  "epochs": 4,
+  "minibatch_size": 64,
+  "episodes_per_batch": 4,
+  "normalize_advantage": true,
+  "gradient_clip": 1.0,
+  "evaluation_episodes": 10,
+  "seed": 7,
+  "run_name": "ppo_experiment_06_clip_010"
+}

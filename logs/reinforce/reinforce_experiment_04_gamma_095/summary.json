@@ -1,0 +1,15 @@
+{
+  "run_name": "reinforce_experiment_04_gamma_095",
+  "episodes": 120,
+  "final_20_mean_training_reward": 3.1749501222552783,
+  "mean_recent_policy_loss": -2.2498112798202783,
+  "mean_recent_policy_entropy": 1.4893513023853302,
+  "mean_eval_reward": 7.758455612554593,
+  "std_eval_reward": 2.3988888005146483,
+  "mean_eval_yield_score": 76.29889609268017,
+  "mean_eval_final_health": 0.9209589238549072,
+  "mean_eval_irrigation_mm": 128.72052492862665,
+  "mean_eval_policy_entropy": 1.4553636418448552,
+  "metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/reinforce/reinforce_experiment_04_gamma_095/episode_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/pg/reinforce_experiment_04_gamma_095.pt"
+}

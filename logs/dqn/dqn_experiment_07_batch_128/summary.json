@@ -1,0 +1,13 @@
+{
+  "run_name": "dqn_experiment_07_batch_128",
+  "episodes": 120,
+  "final_20_mean_training_reward": 7.593992819084944,
+  "mean_recent_training_loss": 0.4495599666237831,
+  "mean_eval_reward": -1.3065763295768729,
+  "std_eval_reward": 9.055727939129804,
+  "mean_eval_yield_score": 53.6521566284188,
+  "mean_eval_final_health": 0.431262848137429,
+  "mean_eval_irrigation_mm": 62.60463360161215,
+  "metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/dqn/dqn_experiment_07_batch_128/episode_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/dqn/dqn_experiment_07_batch_128.pt"
+}

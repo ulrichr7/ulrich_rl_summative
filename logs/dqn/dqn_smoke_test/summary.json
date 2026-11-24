@@ -1,0 +1,13 @@
+{
+  "run_name": "dqn_smoke_test",
+  "episodes": 5,
+  "final_20_mean_training_reward": -2.307384290260945,
+  "mean_recent_training_loss": 0.04033314244938083,
+  "mean_eval_reward": 1.1858505645168718,
+  "std_eval_reward": 5.428984675126638,
+  "mean_eval_yield_score": 52.706784571416975,
+  "mean_eval_final_health": 0.43945323278241455,
+  "mean_eval_irrigation_mm": 42.4,
+  "metrics_csv": "/Users/user/Downloads/smart-irrigation-rl-summative/logs/dqn/dqn_smoke_test/episode_metrics.csv",
+  "model_path": "/Users/user/Downloads/smart-irrigation-rl-summative/models/dqn/dqn_smoke_test.pt"
+}
